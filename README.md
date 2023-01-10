@@ -7,14 +7,20 @@ To use clerkie, first invite the bot to your Discord server by following [this l
 
 For example, if you have the following error:
 
-Copy code
+```
 TypeError: Cannot read property 'name' of undefined
     at Object.exports.run (C:\Users\MyUser\project\index.js:22:27)
     at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:628:24
     at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:622:11
     at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:557:14
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-You would type !clerkie TypeError: Cannot read property 'name' of undefined at Object.exports.run (C:\Users\MyUser\project\index.js:22:27) at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:628:24 at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:622:11 at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:557:14 at processTicksAndRejections (internal/process/task_queues.js:97:5)
+```
+
+
+You would type 
+
+!clerkie TypeError: Cannot read property 'name' of undefined at Object.exports.run (C:\Users\MyUser\project\index.js:22:27) at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:628:24 at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:622:11 at C:\Users\MyUser\project\node_modules\discord.js\src\client\Client.js:557:14 at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
 
 ## Support
 If you need further assistance or have any issues with the bot, please don't hesitate to reach out to us by opening a GitHub issue. We are here to help!
